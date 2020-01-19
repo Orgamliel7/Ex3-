@@ -6,7 +6,7 @@ This Object oriented programming task was written by:
 * Shahar Niknazar - 316416668 
 * Or Gamliel - 208202663
 
-The main topic is developing logic for a game where a group of robots needs to perform movement on weighted and directed graph.
+The main topic is developing logic for a game where a group of robots needs to perform movement on directed graph.
 Our game represented by StdDraw.
 
 Game rules:
