@@ -1,5 +1,7 @@
 # Ex3
 
+welcome to our README about the game: "The Maze Of Waze"!
+
 This Object oriented programming task was written by:
 * Shahar Niknazar - 316416668 
 * Or Gamliel - 208202663
@@ -7,22 +9,29 @@ This Object oriented programming task was written by:
 The main topic is developing logic for a game where a group of robots needs to perform movement on weighted and directed graph.
 Our game represented by StdDraw.
 
-We have 5 classes in our project:
+Game rules:
+The robots earn points while collecting a prize.
+Each prize have different score.
+The direction of the robot's movement is injective.
 
-Fruit -
 
-Robot - 
+We have 8 classes in our project:
 
-StdDraw - 
+1. MyFruit - This class represents the "prizes" that the robot is supposed to collect during the game. Our chosen robot is the famous soccer player Cristiano Ronaldo. Accordingly, the prizes are the goblet of Gold and a football.
 
-DGraph  - implements the interface "graph" and represents a directional weighted graph.
+2. Robot - This class represents the "robots" that supposed to collect the prizes during the game. Our chosen robot is the famous soccer player Cristiano Ronaldo. 
+
+3. StdDraw - for representing the game graphically.
+
+4. DGraph  - implements the interface "graph" and represents a directional weighted graph.
  * The interface has a road-system or communication network in mind - and should support a large number of nodes (over 100,000).
  * The implementation based on an efficient compact representation.
  
-Graph_Algo –  Implements the interface "graph_algorithms", represents bunch of algorithms based on the graph we've created in DGraph.
-Vertex - Implements the interface node_data, represents a vertex in our graph
-Edge - Implements the interface edge_data, represents a vertex in our graph
-GUI  - This class represents a graphical interface here we can display a graph, Run algorithms on it and View their results.
+5. Graph_Algo –  Implements the interface "graph_algorithms", represents bunch of algorithms based on the graph we've created in DGraph.
+6. Vertex - Implements the interface node_data, represents a vertex in our graph
+7. Edge - Implements the interface edge_data, represents a vertex in our graph
+8. KML - In our task, We implements the interface KML_Logger. It allows us to import the graph, the robots and the fruits to KML file.
+
 
 
 
@@ -51,10 +60,7 @@ Graph_Algo class have few methods:
 6) **isConnected** - checks whether the graph is strongly connected.
 
 
-GUI:
-
-This class represents a graphical interface. Here we can display a graph, Run algorithms on it and View their results.
-
+For more information you can see our Wiki pages!
 
 
 
